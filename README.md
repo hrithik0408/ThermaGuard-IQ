@@ -54,6 +54,16 @@
 ```
 
 ---
+## Visual Diagnostics & Forecast Bands
+
+<div align="center">
+  <img src="plots/quantile_forecast_fan_chart.png" width="85%" alt="Quantile Forecast Fan Chart" />
+  <p><em>Figure 1: 3-Hour Horizon Quantile Trajectory ($P_{10}-P_{50}-P_{90}$) with 8.0°C Early-Warning Threshold</em></p>
+  
+  <img src="plots/asset_health_clusters.png" width="75%" alt="Asset Health PCA Clusters" />
+  <p><em>Figure 2: Unsupervised Asset Degradation Profiling via PCA & K-Means</em></p>
+</div>
+
 
 ## 2. Directory Structure
 
