@@ -84,7 +84,7 @@ project_1_thermaguard_iq/
 Execute the end-to-end pipeline from the repository root:
 
 ```bash
-python3 project_1_thermaguard_iq/run_pipeline.py
+python3 run_pipeline.py
 ```
 
 ---
