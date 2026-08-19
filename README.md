@@ -1,6 +1,6 @@
 # ThermaGuard-IQ: Cold-Chain Telemetry Thermal Drift Forecaster
 
-> **One-Line Pitch:** An industrial IoT time-series forecasting and telemetry intelligence engine that predicts multi-horizon cold-chain thermal breaches with calibrated quantile uncertainty bounds and detects mechanical insulation degradation before spoilage occurs.
+> An industrial IoT time-series forecasting and telemetry intelligence engine that predicts multi-horizon cold-chain thermal breaches with calibrated quantile uncertainty bounds and detects mechanical insulation degradation before spoilage occurs.
 
 ---
 
@@ -60,7 +60,6 @@
 ```
 project_1_thermaguard_iq/
 ├── README.md               # Project documentation, architecture, results
-├── INTERVIEW_QA.md         # 15 technical interview questions & detailed answers
 ├── config.py               # Hyperparameters and operational thresholds
 ├── run_pipeline.py         # Main execution pipeline entrypoint
 ├── data/
@@ -101,7 +100,3 @@ python3 project_1_thermaguard_iq/run_pipeline.py
 
 ---
 
-## 5. Resume Bullet Points
-* Engineered an end-to-end IoT cold-chain telemetry intelligence engine forecasting multi-horizon thermal excursions ($t+1\text{h}, t+3\text{h}, t+6\text{h}$) with LightGBM quantile regression ($\alpha=0.10, 0.50, 0.90$), achieving $81.5\%$ empirical coverage and sub-$1.8^\circ\text{C}$ MAE.
-* Architected a leak-free temporal feature pipeline processing 50k+ sensor records, engineering rolling physics interactions, EWMA, and cyclical diurnal features that provided a 3.5-hour actionable lead time prior to cargo spoilage.
-* Implemented unsupervised asset health profiling using PCA and K-Means clustering on thermodynamic decay signatures, isolating degraded insulation seals across 25 fleet reefers without labeled ground truth.
